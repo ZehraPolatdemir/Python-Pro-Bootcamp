@@ -14,6 +14,7 @@ As an engineering student interested in Artificial Intelligence, Large Language 
 
 * [Day 01: Band Name Generator](./Day_01_Band_Name_Generator)
 * [Day 02: Tip Calculator](./Day_02_Tip_Calculator)
+* [Day 03: Treasure Island](./Day_03_Treasure_Island)
 * *[...New days will be added here...]*
 
 ## Credits
