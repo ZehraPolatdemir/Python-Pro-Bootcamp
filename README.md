@@ -16,6 +16,8 @@ As an engineering student interested in Artificial Intelligence, Large Language 
 * [Day 02: Tip Calculator](./Day_02_Tip_Calculator)
 * [Day 03: Treasure Island](./Day_03_Treasure_Island)
 * [Day 04: Rock Paper Scissors](./Day_04_Rock_Paper_Scissors)
+* [Day 05: Password Generator](./Day_05_Password_Generator)
+* [Day 06: Maze Solver](./Day_06_Maze_Solver)
 * *[...New days will be added here...]*
 
 ## Credits
