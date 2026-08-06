@@ -18,6 +18,8 @@ As an engineering student interested in Artificial Intelligence, Large Language 
 * [Day 04: Rock Paper Scissors](./Day_04_Rock_Paper_Scissors)
 * [Day 05: Password Generator](./Day_05_Password_Generator)
 * [Day 06: Maze Solver](./Day_06_Maze_Solver)
+* [Day 07: Hangman](./Day_07_Hangman)
+* [Day 08: Caesar Cipher](./Day_08_Caesar_Cipher)
 * *[...New days will be added here...]*
 
 ## Credits
