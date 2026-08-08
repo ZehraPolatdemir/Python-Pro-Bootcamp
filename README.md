@@ -20,6 +20,7 @@ As an engineering student interested in Artificial Intelligence, Large Language 
 * [Day 06: Maze Solver](./Day_06_Maze_Solver)
 * [Day 07: Hangman](./Day_07_Hangman)
 * [Day 08: Caesar Cipher](./Day_08_Caesar_Cipher)
+* [Day 09: Blind Auction](./Day_09_Blind_Auction)
 * *[...New days will be added here...]*
 
 ## Credits
