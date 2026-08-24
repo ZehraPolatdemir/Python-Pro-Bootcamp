@@ -22,6 +22,7 @@ As an engineering student interested in Artificial Intelligence, Large Language 
 * [Day 08: Caesar Cipher](./Day_08_Caesar_Cipher)
 * [Day 09: Blind Auction](./Day_09_Blind_Auction)
 * [Day 10: Calculator](./Day_10_Calculator)
+* [Day 11: The Blackjack ](./Day_11_Blackjack)
 * *[...New days will be added here...]*
 
 ## Credits
