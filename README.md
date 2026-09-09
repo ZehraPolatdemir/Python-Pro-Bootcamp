@@ -24,6 +24,7 @@ As an engineering student interested in Artificial Intelligence, Large Language 
 * [Day 10: Calculator](./Day_10_Calculator)
 * [Day 11: The Blackjack ](./Day_11_The_Blackjack)
 * [Day 12: Number Guessing Game ](./Day_12_Number_Guessing_Game)
+* [Day 13:Scope and random gussing ](./Day_13_Scope_and_Random_Guessing_Game)
 * *[...New days will be added here...]*
 
 ## Credits
