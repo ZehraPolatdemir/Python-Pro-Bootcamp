@@ -1,46 +1,48 @@
 import art
 import random
-
 print(art.logo)
 
-print("Welcome to the Number Guessing Game!")
-print("I'm thinking of a number between 1 and 100.")
+level_hard = 5
+level_easy = 10
 
-secret_number = random.randint(1, 100)
+def choose_difficulty():
+    level = input("Choose a difficulty. Type 'easy' or 'hard': ")
+    if level == "hard":
+        return level_hard
+    else:
+        return level_easy
 
-def play_guessing_game(attempts_left):
+def check_answer(user_guess, actual_answer, turns):
+    if user_guess > actual_answer:
+        print("Too high.")
+        return turns - 1
+    elif actual_answer > user_guess:
+        print("Too low.")
+        return turns - 1
+    else:
+        print(f"You got it! The answer was {actual_answer}.")
+        return
 
-    while attempts_left > 0:
+def game():
+    answer = random.randint(1, 100)
+
+    print("Welcome to the Number Guessing Game!")
+    print("I'm thinking of a number between 1 and 100.")
+
+    guess = 0
+    turns = choose_difficulty()
+    while guess != answer:
+
+        print(f"You have {turns} attempts remaining to guess the number.")
+
         guess = int(input("Make a guess: "))
 
-        if guess == secret_number:
-            print(f"You got it! The answer was {secret_number}.")
-            return  #
-        elif guess > secret_number:
-            print("Too high.")
-        elif secret_number > guess:
-            print("Too low.")
-
-        attempts_left -= 1
-
-        if attempts_left > 0:
+        turns = check_answer(guess, answer, turns)
+        if turns == 0:
+            print("You've run out of guesses, you lose.")
+            return
+        elif guess != answer:
             print("Guess again.")
-            print(f"You have {attempts_left} attempts remaining to guess the number.")
-        else:
 
-            print(f"You've run out of guesses, you lose. The number was {secret_number}.")
+game()
 
-
-while True:
-    difficulty_choice = input("Choose a difficulty. Type 'easy' or 'hard': ").lower()
-    if difficulty_choice == "easy":
-        total_attempts = 10
-        break
-    elif difficulty_choice == "hard":
-        total_attempts = 5
-        break
-    else:
-        print("Invalid input. Please type 'easy' or 'hard'.")
-
-print(f"You have {total_attempts} attempts remaining to guess the number.")
-play_guessing_game(total_attempts)
