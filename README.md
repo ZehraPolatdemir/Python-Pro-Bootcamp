@@ -22,9 +22,10 @@ As an engineering student interested in Artificial Intelligence, Large Language 
 * [Day 08: Caesar Cipher](./Day_08_Caesar_Cipher)
 * [Day 09: Blind Auction](./Day_09_Blind_Auction)
 * [Day 10: Calculator](./Day_10_Calculator)
-* [Day 11: The Blackjack ](./Day_11_The_Blackjack)
-* [Day 12: Number Guessing Game ](./Day_12_Number_Guessing_Game)
-* [Day 14: Higher or Lower ](./Day_14_Higher_or_Lower)
+* [Day 11: The Blackjack](./Day_11_The_Blackjack)
+* [Day 12: Number Guessing Game](./Day_12_Number_Guessing_Game)
+* [Day 14: Higher or Lower](./Day_14_Higher_or_Lower)
+* [Day 15: Coffee Machine](./Day_15_Coffee_Machine)
 * *[...New days will be added here...]*
 
 ## Credits
