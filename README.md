@@ -26,6 +26,7 @@ As an engineering student interested in Artificial Intelligence, Large Language 
 * [Day 12: Number Guessing Game](./Day_12_Number_Guessing_Game)
 * [Day 14: Higher or Lower](./Day_14_Higher_or_Lower)
 * [Day 15: Coffee Machine](./Day_15_Coffee_Machine)
+* [Day 16: OOP Coffee Machine](./Day_16_OOP_Coffee_Machine)
 * *[...New days will be added here...]*
 
 ## Credits
